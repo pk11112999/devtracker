@@ -1,0 +1,160 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* map styling */
+
+#map { 
+	height:450px; 
+	margin: 20px 0px;
+}
+
+/* data styling */
+
+.table {
+	color: black;
+	clear:both; 
+	padding: 20px 0px;
+}
+
+
+#results{
+	border-collapse: collapse;
+	width:100%;
+}
+thead{
+	background-color: #FFAD33;
+	border: 2px;
+	border-style: dashed;
+	font-size:1.4em;
+	padding: 0px;
+}
+
+thead th{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.entry { 
+	border: 0px; 
+	padding-left: 10px; 
+}
+
+tr.location { 
+	background-color:#FFC670; 
+	cursor:pointer; 
+}
+tr.location:hover { background-color:#FFF; }
+
+tr.locationDetail{ background-color:#FFC670; }
+tr.detail { background-color:#FFF; }
+
+div.detail{  }
+div.detail p{ margin:5px; }
+
+td.count { text-align: center; }
+
+tr.location  a { color:#0000FF; }
+tr.location  > a:hover { color: #000000; }
+tr.location > a:visited { color: #000; }
+
+/*
+td.add
+td.owner
+td.bin
+span.count
+span.filing
+
+*/
+
+/* bottom nav styling -- changes bootstrap */
+
+#bottom-nav > .navbar-default {
+	background: rgba(34,34,34,0.9);
+	border: none;
+	padding-top: 5px;
+}
+
+.nav-pills > li {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-pills > li > a {
+	color: #FFF;
+	background-color: #222;
+	border-radius: 30px;
+	padding:10px 15px;
+	opacity: 0.9; 
+}
+
+
+.nav-pills > li > a:hover  { color: #222; }
+
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover{
+	background-color: #FFF;
+	color: #FF8000;
+	font-size: 1.5em;
+}
+
+.center-pills { 
+	display: flex;
+    justify-content: center; 
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #002DB3;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #002DB3;
+  background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #002DB3;
+  background-color: transparent;
+}

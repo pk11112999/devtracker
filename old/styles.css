@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* applies to all of the page */
+.container { 
+	background-color:#FFF;
+	color:black; 
+	margin:auto; 
+	text-align: center; 
+	width:90%; 
+}
+	
+
+.instructions {
+	max-width: 100%;
+}
+
+#map { 
+	background-color:#00527a;
+	clear:both;
+	color:black;
+	float:left; 
+	height:450px; 
+	margin:auto; 
+	padding-bottom:10px; 
+	position:relative; 
+	text-align:left; 
+	width:100%; 
+}
+
+/* data table */
+.data {
+	color: black;
+	clear:both; 
+	margin:auto; 
+	position:relative; 
+	padding-bottom: 20px;
+}
+
+/* these are all the styles that go with the table */
+#results{
+border-collapse: collapse;
+}
+thead{
+background-color: #FFAD33;
+font-size:1.4em;
+padding: 0px;
+border: 2px;
+border-style: dashed;
+}
+
+thead th{
+padding-left: 2px;
+padding-right: 2px;
+
+}
+.entry { border: 0px; padding-left: 10px; }
+
+tr.location { 
+background-color:#FFC670; 
+cursor:pointer; 
+}
+tr.location:hover {
+background-color:#FFF;
+}
+
+tr.locationDetail{
+background-color:#FFC670;
+
+}
+tr.detail {
+background-color:#FFF;
+}
+
+div.detail{  }
+div.detail p{ margin:5px; }
+
+td.count { text-align: center;}
+
+tr.location  a { color:#000;}
+tr.location  a:hover {color: #FFF;}
+tr.location a:visited { color: #000;}
+
+/*
+td.add
+td.owner
+td.bin
+span.count
+span.filing
+
+*/

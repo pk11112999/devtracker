@@ -1,4 +1,4 @@
-// Written by PetaKowa May 29, 2015
+// Written by Peter Kowalewska May 29, 2015
 // Scroll to target with nav links
 // Each li (or a) must have an attribute 'data-scroll-target' with the just name of the target div
 // On click, the function gets the target name, adds a hash, finds the target, gets the target's top position and scrolls to it
